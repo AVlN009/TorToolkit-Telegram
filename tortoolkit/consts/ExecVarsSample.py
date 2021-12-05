@@ -5,23 +5,23 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "4f7f6c50a8f8200e60ab6d0e056d0de1"
+        API_ID = 19050778
+        BOT_TOKEN = "2115315369:AAFgTF8ztpKBZAfaae6LX_NfvhxPdAenOqc"
+        BASE_URL_OF_BOT = "http://34.125.245.235"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-1001783584490 371980277 2052830011]
+        OWNER_ID = 2052830011
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 10
 
         # Telegram Upload Limit (in bytes)
         TG_UP_LIMIT = 1700000000
@@ -36,13 +36,13 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        #DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
+        DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
-        MEGA_ENABLE = False
+        MEGA_ENABLE = True
         MEGA_API = ""
         MEGA_UNAME = None
         MEGA_PASS = None
@@ -68,10 +68,10 @@ except:
         DEF_RCLONE_DRIVE = ""
 
         # Max size of a playlist that is allowed (Number of videos)
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 9999
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 1024
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
@@ -81,10 +81,10 @@ except:
         STATUS_DEL_TOUT = 20
 
         # Allow the user settings to be accessed in private
-        USETTINGS_IN_PRIVATE = False
+        USETTINGS_IN_PRIVATE = True
 
         # Torrent max time to collect metadata in seconds
-        TOR_MAX_TOUT = 180
+        TOR_MAX_TOUT = 259200
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
